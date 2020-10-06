@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Organize FOR loop printing the even numbers only from 100 to 1000."
+
+for ((i = 100; i<=1000; i++))
+do
+	if [ $((i % 2)) == 0 ]; then
+		echo "$i"
+	fi
+done

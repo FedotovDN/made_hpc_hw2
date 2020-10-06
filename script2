@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Initialize the array of 10-20 elements and organize FOR loop printing the elements of array"
+
+my_array=(norilsk moscow volgograd kursk minsk krasnoyarsk novosibirsk omsk irkutsk vladivostok cheboksary tomsk izhevsk belgorod voronezh)
+
+for ((i = 0; i<=14; i++))
+do
+	echo ${my_array[$i]}
+done
+

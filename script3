@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Compute 100 + 0.5 in bash"
+echo print 100+0.5 | python2

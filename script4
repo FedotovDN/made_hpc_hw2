@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ ! -f "Linux" ]; then
+	echo "very easy"
+	touch "Linux"
+else
+	echo "course"
+fi
